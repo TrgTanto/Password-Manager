@@ -3,11 +3,11 @@ Dieses Projekt haben wir als Team gemacht um unsere Skills in der Softwareentwic
 Es ist ein Portfolio Projekt und nicht für den echten Einsatz gedacht
 
 *MITGLIEDER/AUFGABENTEILUNG*
-- Maximilian Paschedag
+- Max
     - Ganze GUI Gestaltung
     - passwordFrame.py
     - checkerFrame.py
-- Morrison May
+- Morrison
     - generatorFrame.py
     - calculatorFrame.py
     - Speicherung durch JSON Dateien
