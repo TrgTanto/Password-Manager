@@ -1,5 +1,5 @@
 ## Hinweis
-Dieses Projekt haben wir als Team gemacht um unsere Skills in der Softwareentwicklung zu zeigen
+Dieses Projekt haben wir als Team zusammen gemacht um unsere Skills in der Softwareentwicklung zu zeigen
 Es ist ein Portfolio Projekt und nicht für den echten Einsatz gedacht
 
 *MITGLIEDER/AUFGABENTEILUNG*
