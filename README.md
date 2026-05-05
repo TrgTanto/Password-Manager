@@ -37,7 +37,7 @@ Es ist ein Portfolio Projekt und nicht für den echten Einsatz gedacht
 - Unterstützt MD5 SHA-1 SHA-224 SHA-256 SHA-384 SHA-512 SHA3-224 SHA3-256 SHA3-384 SHA3-512
 - Speichert keine Daten
 
-# Disclaimer:
+# Disclaimer
 - Alle Daten werden nur lokal auf dem eigenen Rechner gespeichert
 - Internetverbindung wird für API Calls benötigt
 - pwmanagerdev ist für den Start über Visual Studio Code gedacht
