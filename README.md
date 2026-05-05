@@ -1,50 +1,44 @@
 ## Hinweis
-dieses projekt haben wir als team gemacht um unsere skills in der softwareentwicklung zu zeigen
-es ist ein portfolio-projekt und nicht für den echten einsatz gedacht
+Dieses Projekt haben wir als Team gemacht um unsere Skills in der Softwareentwicklung zu zeigen
+Es ist ein Portfolio Projekt und nicht für den echten Einsatz gedacht
 
 *MITGLIEDER/AUFGABENTEILUNG*
 - Maximilian Paschedag
-    - ganze GUI (Gestaltung)
+    - Ganze GUI Gestaltung
     - passwordFrame.py
     - checkerFrame.py
 - Morrison May
     - generatorFrame.py
     - calculatorFrame.py
-    - speicherung durch json dateien
+    - Speicherung durch JSON Dateien
 
 **PASSWÖRTER: passwordFrame.py**
-- speichert passwörter mit schöner ui (lokal in json datei)
-- falls nötig kann man notizen hinzufügen oder links (nicht anklickbar)
-- falls appname == Instagram, Google, Apple,
-                   Gmail, Telegram, Snapchat,
-                   Tiktok, Facebook, Discord,
-                   Youtube, Netflix, Spotify,
-                   Amazon, ebay, Paypal     -> perfektes icon, ansonsten ? icon
+- Speichert Passwörter mit UI lokal in JSON Datei
+- Optional können Notizen oder Links hinzugefügt werden (Links sind nicht anklickbar)
+- Falls App Name z.B. Instagram Google Apple Gmail Telegram Snapchat Tiktok Facebook Discord Youtube Netflix Spotify Amazon Ebay Paypal dann wird ein passendes Icon angezeigt sonst ein ? Icon
 
 **GENERATOR: generatorFrame.py**
-- starke und zufällge passwörter erstellen
-- präzise standard analyse
-- speichert die 5 letzten passwörter die generiert wurden (falls neues passwort ältestes geht weg)
-- auswahl von zeichenarten
-- sonderzeichen können mit slider addiert werden
+- Erstellt starke und zufällige Passwörter
+- Standard Analyse
+- Speichert die letzten 5 generierten Passwörter ältestes wird ersetzt
+- Auswahl von Zeichenarten
+- Sonderzeichen können mit Slider hinzugefügt werden
 
 **PASSWORTER-CHECKER: checkerFrame.py**
-- überprüft eingegebenes passwort
-- präzise standard analyse
-- extra sicherheitsbewertung mit häufigkeit von echten geleakten datenbanken -> API call HIBP
-- überprüft wie lange ein pc ca bräuchte um das passwort zu hacken -> library: zxcvbn
-- empfehlungen was in der analyse fehlt
-- speichert die 5 letzten passwörter die generiert wurden (falls neues passwort ältestes geht weg)
+- Überprüft eingegebenes Passwort
+- Standard Analyse
+- Sicherheitsbewertung basierend auf geleakten Datenbanken über API von HIBP
+- Überprüft wie lange ein Computer bräuchte um das Passwort zu hacken mit library -> zxcvbn
+- Gibt Empfehlung zur Verbesserung
+- Speichert die letzten 5 geprüften Passwörter ältestes wird ersetzt
 
 **HASH-RECHNER: calculatorFrame.py**
-- kann text oder einzelnes wort sofort in einem beliebigen algorithmus (MD5, SHA-1, SHA-224,
-                                                                       SHA-256, SHA-384, SHA-512,
-                                                                       SHA3-224, SHA3-256, SHA3-384, SHA3-512)
-- umgewandelt werden
-- speichert nix
+- Wandelt Text oder einzelne Wörter in Hashes um
+- Unterstützt MD5 SHA-1 SHA-224 SHA-256 SHA-384 SHA-512 SHA3-224 SHA3-256 SHA3-384 SHA3-512
+- Speichert keine Daten
 
 # disclaimer:
-- alle daten werden nicht online gespeichert sondern bloß lokal auf seinen eigenen rechner
-- app benötigt internet verbindung zwecks API call
-- pwmanagerdev ist für den start per visual studio code (https://code.visualstudio.com/download) gedacht
-- pwmanager ist für den start per exe (pwmanager/app/dist/main.exe) gedacht und kann nicht mit visual studio code gestartet werden
+- Alle Daten werden nur lokal auf dem eigenen Rechner gespeichert
+- Internetverbindung wird für API Calls benötigt
+- pwmanagerdev ist für den Start über Visual Studio Code gedacht
+- pwmanager ist für den Start über die exe gedacht pwmanager/app/dist/main.exe und kann **nicht** über Visual Studio Code gestartet werden
