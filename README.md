@@ -41,4 +41,4 @@ Es ist ein Portfolio Projekt und nicht für den echten Einsatz gedacht
 - Alle Daten werden nur lokal auf dem eigenen Rechner gespeichert
 - Internetverbindung wird für API Calls benötigt
 - pwmanagerdev ist für den Start über Visual Studio Code gedacht
-- pwmanager ist für den Start über die exe gedacht pwmanager/app/dist/main.exe und kann **nicht** über Visual Studio Code gestartet werden
+- pwmanager ist nur für die Erstellung der .exe Version gedacht da dabei zusätzliche Dateien erstellt wurden und Build Komponenten erzeugt werden (startet nicht über Visual Studio Code)
